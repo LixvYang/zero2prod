@@ -7,7 +7,10 @@ edition = "2021"
 actix-web = "4"
 tokio = { version = "1", features = ["full"] }
 actix-rt = "2"
-reqwest = { version = "0.11", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+
+[dev-dependencies]
+actix-rt = "2"
 
 [lib]
 path = "src/lib.rs"
