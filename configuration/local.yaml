@@ -1,9 +1,11 @@
+#! configuration/local.yaml
 application:
-  port: 8000
   host: 127.0.0.1
+  port: 8000
 database:
   host: "localhost"
   port: 5432
   username: "postgres"
   password: "postgres"
   database_name: "newsletter"
+  require_ssl: false
